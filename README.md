@@ -2,10 +2,10 @@
 ## Jump Search
 
 #### Cara Kerja Program
-Jump Search bekerja dengan membagi array menjadi bagian-bagian yang sama ukurannya, yang disebut blok. Selanjutnya, algoritma akan melompat dari blok ke blok secara linear, dengan interval atau step yang tetap dan optimal, hingga elemen yang dicari ditemukan atau batas akhir array dicapai. Jika elemen yang dicari terdapat pada blok tertentu, Jump Search kemudian melakukan pencarian linear pada blok tersebut. Jika elemen tidak ditemukan dalam blok manapun, maka program akan mengeluarkan hasil "element not found"
+Jump Search bekerja dengan membagi array menjadi bagian-bagian yang sama ukurannya, yang disebut blok. Selanjutnya, algoritma akan melompat dari blok ke blok secara linear, dengan interval atau step yang tetap dan optimal, hingga elemen yang dicari ditemukan atau batas akhir array dicapai. Jika elemen yang dicari terdapat pada blok tertentu, Jump Search kemudian melakukan pencarian linear pada blok tersebut. Jika elemen tidak ditemukan dalam blok manapun, maka program akan mengeluarkan hasil "element not found".
 
 #### Fungsionalitas Algoritma
-Fungsionalitas utama dari jump search adalah untuk mencari elemen tertentu dalam array yang diurutkan secara efisien dan dengan kompleksitas waktu yang rendah. Pencarian linier (liniear search) melakukan pencarian elemen dalam array satu persatu. Dengan algoritma ini menghindari pencarian linier pada seluruh array dan melompati blok-blok tertentu untuk mempercepat proses pencarian, sehingga akan lebih menghemat waktu
+Fungsionalitas utama dari jump search adalah untuk mencari elemen tertentu dalam array yang diurutkan secara efisien dan dengan kompleksitas waktu yang rendah. Pencarian linier (liniear search) melakukan pencarian elemen dalam array satu persatu. Dengan menggunakan algoritma ini, akan menghindari pencarian linier pada seluruh array dengan melompati blok-blok tertentu untuk mempercepat proses pencarian, sehingga akan lebih menghemat waktu.
 
 #### Elemen - Elemen dalam Program
 
